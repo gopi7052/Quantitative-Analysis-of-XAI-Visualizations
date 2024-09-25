@@ -9,14 +9,15 @@ The Train_Pre_trained_model.m script trains a pre-trained model on an augmented 
 ### 2. Extract Top 'n' features using LIME
 The MATLAB function provides a graphical interface for explaining image classification models using LIME (Local Interpretable Model-agnostic Explanations). The UI allows users to load a pre-trained model, select an image, and choose an output folder. A dropdown lets users select the number of top features to highlight. The "Start" button triggers the analysis, displaying the original image, LIME explanations, top feature highlights, and a binary mask. Results are displayed on multiple axes and can be saved as PDFs or images. The interface includes options to pause or stop the analysis as needed.
 
-![LIME_Explanation1](https://github.com/user-attachments/assets/c6655e5c-9aa7-4904-bb66-c1f3b3ffba68)
+![LIME_Explanation](https://github.com/user-attachments/assets/4f72d621-2e3c-4112-bab4-74a223d518fd)
 
 ### 3. Quantitative Analysis
 This MATLAB function creates a graphical user interface (UI) for quantitative evaluation metrics in Explainable AI (XAI) analysis. It allows users to load two images: a ground truth image and a masked features image. The UI displays these images side by side and provides a button to calculate evaluation metrics, including IoU, Jaccard similarity, Dice similarity, sensitivity, specificity, precision, F1 score, and Matthew's correlation coefficient (MCC). Metrics are computed based on image comparison and displayed in a panel below the images. The UI enables easy visualization and comparison of image-based quantitative metrics.
 
-![Quantitative_Metrics1](https://github.com/user-attachments/assets/121ef8b0-8356-4bda-9060-a49be9aa4fe6)
+![Quantitative_Metrics](https://github.com/user-attachments/assets/bdc248f1-9b0c-445c-880d-3b60c132e797)
 
 ### 4. Overfitting ratio
 This MATLAB function calculates the overfitting ratio between a target ROI image and an identified ROI image. It includes buttons for selecting images, displaying them on axes, and a panel to show metrics. Users select both images, which are resized and displayed in two axes. The "Calculate Metrics" button computes areas, true positives, false positives, and overfitting ratio based on pixel values. The results, including the overfitting ratio and the normalized area outside ROI, are displayed in the panel.
 
-![Overfitting_Ratio1](https://github.com/user-attachments/assets/5f0da9ed-6530-4691-8b97-9af0d0af4249)
+![Overfitting_Ratio](https://github.com/user-attachments/assets/e69f1835-ff5f-4171-be65-a07e0246ce48)
+
