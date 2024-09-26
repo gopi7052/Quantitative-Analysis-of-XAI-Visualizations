@@ -114,16 +114,27 @@ Recognize potential model limitations, such as reliance on irrelevant features, 
 
 ### LIME Feature Extraction: 
 lime_extract_features.m fuction can be used to extract and visualize the most significant features in images, generating both masked and binary masked images that highlight the top n significant features 
+
 ![LIME_Explanation](https://github.com/user-attachments/assets/4f72d621-2e3c-4112-bab4-74a223d518fd)
 
+After loading the model, selecting the input image, and the top 'n' features, obtained the following results
+![LIME_Explanation1](https://github.com/user-attachments/assets/e7c7cfd3-7e76-41da-b75b-2926c1017d94)
 
 ### Quantitative Analysis: 
 quantitative_evaluation_metrics.m function is used to calculate various quantitative metrics between a binarized image and its corresponding ground truth image.
 ![Quantitative_Metrics](https://github.com/user-attachments/assets/bdc248f1-9b0c-445c-880d-3b60c132e797)
 
+After selecting the ground truth and masked n feature images, obtained the following results
+![Quantitative_Metrics1](https://github.com/user-attachments/assets/185ab813-db77-4a78-90d7-3fe7b6a868f3)
+
+
 ### Overfitting Ratio Calculation: 
 overfitting_ratio.m function is used to calculate the overfitting ratio between a target ROI image and an identified ROI image
+
 ![Overfitting_Ratio](https://github.com/user-attachments/assets/e69f1835-ff5f-4171-be65-a07e0246ce48)
+
+After selecting the target ROI and an identified ROI images, obtained the following results
+![Overfitting_Ratio1](https://github.com/user-attachments/assets/37e17ab7-79ac-4957-910b-9cb26a61b2e6)
 
 
 ## Authors
