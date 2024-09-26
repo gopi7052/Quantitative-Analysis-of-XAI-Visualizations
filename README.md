@@ -25,6 +25,17 @@ This MATLAB function _overfitting_ratio_ calculates the overfitting ratio betwee
 ![Overfitting_Ratio](https://github.com/user-attachments/assets/e69f1835-ff5f-4171-be65-a07e0246ce48)
 
 
+### Dependencies
+Here are the dependencies required for the Explainable AI Toolbox to function correctly:
+
+1. MATLAB Version
+   - MATLAB R2020a or later
+
+2. MATLAB Toolboxes
+   - Image Processing Toolbox
+   - Deep Learning Toolbox
+   - Statistics and Machine Learning Toolbox
+   - Computer Vision Toolbox
 
 ## Authors
 1. Hari Kishan Kondaveeti, Ph.D
