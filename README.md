@@ -36,7 +36,7 @@ Here are the features provided by each script:
 
 1. LIME Feature Extraction: Extracts and visualizes the most significant features in images, generating both masked and binary masked images that highlight the top n significant features (lime_extract_features.m).
 2. Quantitative Analysis: Calculates various quantitative metrics between a binarized image and its corresponding ground truth image (quantitative_evaluation_metrics.m).
-3. Overfitting ratio calculation: calculates the overfitting ratio between a target ROI image and an identified ROI image (overfitting_ratio.m)
+3. Overfitting Ratio Calculation: calculates the overfitting ratio between a target ROI image and an identified ROI image (overfitting_ratio.m)
 
 
 ## 4. Dependencies
