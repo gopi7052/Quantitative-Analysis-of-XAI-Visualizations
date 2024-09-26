@@ -1,4 +1,4 @@
-# XAI_Quantitative_Analysis [MATLAB]
+# Quantitative Analysis of XAI Visualization [MATLAB]
 
 ## Description
 Explainable Artificial Intelligence (XAI) is essential for making AI models more transparent, interpretable, and trustworthy. As AI systems are increasingly deployed in critical sectors like healthcare, agriculture, and finance, understanding how these models make decisions becomes crucial to ensure their reliability and fairness. XAI techniques provide insights into the reasoning behind AI decisions, helping users to trust and validate the outputs, particularly in high-stakes applications.
