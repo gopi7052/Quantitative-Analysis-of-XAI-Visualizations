@@ -8,7 +8,7 @@ We developed this MATLAB toolbox to provide a quantitative evaluation framework 
 
 ## 1. Instructions
 ### 1.1 Training and Saving a Pre-trained Deep Learning Model
-Initially, the code sets up an image datastore to load images from a specified directory, organizing them into training and validation sets with a 60/40 split. The core of the model is built by loading a pretrained architecture and modifying its final layers to suit the specific number of disease classes in the dataset. This customization involves adding a new fully connected layer, a softmax layer, and a classification layer, enabling the model to output probabilities for each class. To enhance the model’s robustness, data augmentation techniques, such as random horizontal flipping and translations within a specified pixel range, are employed to expand the dataset and reduce the risk of overfitting artificially. The training process utilizes the Adam optimizer with a mini-batch size of 32 and a learning rate of 1e-4, spanning up to 30 epochs. Validation data is monitored throughout the training to track the model's performance. Upon completing the training, the model is saved as a MAT file for future inference. Performance metrics such as accuracy, precision, recall, F1 score, Matthews correlation coefficient (MCC), specificity, and false positive rate (FPR) are computed and displayed, providing a comprehensive overview of the model’s effectiveness in accurately classifying rice diseases.
+An image datastore to load images from a specified directory, organizing them into training and validation sets with a 60/40 split. The core of the model is built by loading a pretrained architecture and modifying its final layers to suit the specific number of disease classes in the dataset. This customization involves adding a new fully connected layer, a softmax layer, and a classification layer, enabling the model to output probabilities for each class. To enhance the model’s robustness, data augmentation techniques, such as random horizontal flipping and translations within a specified pixel range, are employed to expand the dataset and reduce the risk of overfitting artificially. The training process utilizes the Adam optimizer with a mini-batch size of 32 and a learning rate of 1e-4, spanning up to 30 epochs. Validation data is monitored throughout the training to track the model's performance. Upon completing the training, the model is saved as a MAT file for future inference. Performance metrics such as accuracy, precision, recall, F1 score, Matthews correlation coefficient (MCC), specificity, and false positive rate (FPR) are computed and displayed, providing a comprehensive overview of the model’s effectiveness in accurately classifying rice diseases.
 
 ### 1.2 Extract Top 'n' features using LIME
 After training and saving the pre-trained deep learning model, a .mat file is created for further analysis. The Local Interpretable Model-agnostic Explanations (LIME) technique is employed to visualize the model's decision-making process. This involves loading the saved .mat file and extracting the top 'n' significant features that influence the model's predictions. The extracted features are then visualized, and a masked image is generated to highlight these important areas. Subsequently, this masked image is converted into a binarized format, emphasizing the significant features more distinctly for easier interpretation and analysis. This process enhances our understanding of the model's behavior and provides insights into the relevant features contributing to its predictions.
@@ -28,13 +28,7 @@ Overfitting occurs when a pre-trained model learns the training data too well, c
     addpath(genpath('path_to_toolbox'));
     ```
 
-## 3. Usage Instructions
-To use the bulk Grad-CAM and LIME function, run the following command in MATLAB:
-```matlab
-bulk_gradCAM_LIME_UI;
-```
-
-## Features
+## 3.Features
 Here are the features provided by each script:
 
 1. LIME Feature Extraction: Extracts and visualizes the most significant features in images, generating both masked and binary masked images that highlight the top n significant features (lime_extract_features.m).
@@ -42,9 +36,7 @@ Here are the features provided by each script:
 3. Overfitting ratio calculation: calculates the overfitting ratio between a target ROI image and an identified ROI image (overfitting_ratio.m)
 
 
-
-
-## Dependencies
+## 4. Dependencies
 Here are the dependencies required for the Explainable AI Toolbox to function correctly:
 
 1. MATLAB Version
