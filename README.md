@@ -127,7 +127,7 @@ quantitative_evaluation_metrics.m function is used to calculate various quantita
 Before selecting the images the quantitative analysis panel follows below: 
 ![Quantitative_Metrics](https://github.com/user-attachments/assets/bdc248f1-9b0c-445c-880d-3b60c132e797)
 
-After selecting the ground truth and masked n feature images, obtained the following results
+After selecting the ground truth and masked n feature images, obtained the following results:
 ![Quantitative_Metrics1](https://github.com/user-attachments/assets/185ab813-db77-4a78-90d7-3fe7b6a868f3)
 
 
@@ -137,7 +137,7 @@ overfitting_ratio.m function is used to calculate the overfitting ratio between 
 Before selecting the images the calculation of the overfitting ratio panel follows below:
 ![Overfitting_Ratio](https://github.com/user-attachments/assets/e69f1835-ff5f-4171-be65-a07e0246ce48)
 
-After selecting the target ROI and an identified ROI images, obtained the following results
+After selecting the target ROI and an identified ROI images, obtained the following results:
 ![Overfitting_Ratio1](https://github.com/user-attachments/assets/37e17ab7-79ac-4957-910b-9cb26a61b2e6)
 
 
