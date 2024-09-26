@@ -101,7 +101,7 @@ Analyze how well the model’s selected features correspond to ground truth to g
 
 ### Step 4: Calculate Overfitting Ratio
 #### Define Overfitting:
-Recognize signs of overfitting, such as poor performance on new data despite high training accuracy (e.g., training accuracy of 98%, but testing accuracy of 70%).
+Recognize potential model limitations, such as reliance on irrelevant features, despite achieving high accuracy on both training and test sets (e.g., training accuracy of 98% and testing accuracy of 95%, but the model focuses on background elements instead of relevant object features).
 
 #### Quantify Overfitting:
 1. Calculate the ratio comparing irrelevant focus areas to the actual target areas in your data (e.g., measure how much the model focuses on non-relevant parts of the plant images).
