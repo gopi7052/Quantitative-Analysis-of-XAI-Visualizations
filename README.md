@@ -52,15 +52,15 @@ Here are the dependencies required for the Explainable AI Toolbox to function co
    - Computer Vision Toolbox
   
 ## Screenshots:
-LIME Feature Extraction
+**LIME Feature Extraction**
 
 ![LIME_Explanation](https://github.com/user-attachments/assets/4f72d621-2e3c-4112-bab4-74a223d518fd)
 
-Quantitative Analysis
+**Quantitative Analysis**
 
 ![Quantitative_Metrics](https://github.com/user-attachments/assets/bdc248f1-9b0c-445c-880d-3b60c132e797)
 
-Calculation of Overfitting Ratio
+**Calculation of Overfitting Ratio**
 
 ![Overfitting_Ratio](https://github.com/user-attachments/assets/e69f1835-ff5f-4171-be65-a07e0246ce48)
 
