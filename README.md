@@ -136,10 +136,10 @@ Screenshot of the UI displaying the results after selecting the images in the qu
 overfitting_ratio.m function is used to calculate the overfitting ratio between a target ROI image and an identified ROI image
 
 Screenshot of the UI before selecting the images for the calculation of the overfitting ratio panel:
-![Overfitting_Ratio](https://github.com/user-attachments/assets/e69f1835-ff5f-4171-be65-a07e0246ce48)
+![New_Overfitting_Ratio](https://github.com/user-attachments/assets/572d7683-c0fd-4048-b891-9fb04aec60bf)
 
 Screenshot of the UI displaying the results after selecting the images for the calculation of the overfitting ratio panel:
-![Overfitting_Ratio1](https://github.com/user-attachments/assets/37e17ab7-79ac-4957-910b-9cb26a61b2e6)
+![New_Overfitting_Ratio_Results](https://github.com/user-attachments/assets/46c3fd87-9256-44e6-a4e6-a38efa8be1f4)
 
 
 ## Authors
