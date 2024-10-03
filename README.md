@@ -126,10 +126,10 @@ Screenshot of the UI after selecting the options and submission in the LIME expl
 quantitative_evaluation_metrics.m function is used to calculate various quantitative metrics between a binarized image and its corresponding ground truth image.
 
 Screenshot of the UI before selecting the images in the quantitative analysis panel: 
-![Quantitative_Metrics](https://github.com/user-attachments/assets/bdc248f1-9b0c-445c-880d-3b60c132e797)
+![Before_Quant_all_metrics](https://github.com/user-attachments/assets/1a5a45b5-0f6d-4cb1-a290-d878c20b5023)
 
 Screenshot of the UI displaying the results after selecting the images in the quantitative analysis panel:
-![Quantitative_Metrics1](https://github.com/user-attachments/assets/185ab813-db77-4a78-90d7-3fe7b6a868f3)
+![After_Quant_all_metrics](https://github.com/user-attachments/assets/d7b1e8a0-98d2-4370-8533-4299011389f4)
 
 
 ### Overfitting Ratio Calculation: 
