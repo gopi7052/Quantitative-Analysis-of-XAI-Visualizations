@@ -129,7 +129,7 @@ Screenshot of the UI before selecting the images in the quantitative analysis pa
 ![Before_Quant_all_metrics](https://github.com/user-attachments/assets/1a5a45b5-0f6d-4cb1-a290-d878c20b5023)
 
 Screenshot of the UI displaying the results after selecting the images in the quantitative analysis panel:
-![After_Quant_all_metrics](https://github.com/user-attachments/assets/d7b1e8a0-98d2-4370-8533-4299011389f4)
+![After_Quant_all_metrics](https://github.com/user-attachments/assets/ea5fcea9-ab5b-4b90-a655-3da1d1f4ee8b)
 
 
 ### Overfitting Ratio Calculation: 
