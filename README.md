@@ -32,7 +32,7 @@ Here are the features provided by each script:
 1. Train and save the pre-trained model: Train the model using specified settings, evaluate its performance using various performance evaluation metrics, and save the trained model for future use (Train_pre-trained_model.m). 
 2. LIME Feature Extraction: Extracts and visualizes the most significant features in images, generating both masked and binary masked images that highlight the top n significant features (lime_extract_features.m).
 3. Quantitative Analysis: Calculates various quantitative metrics between a binarized image and its corresponding ground truth image (quantitative_evaluation_metrics.m).
-4. Overfitting Ratio Calculation: calculates the overfitting ratio between a target ROI image and an identified ROI image (overfitting_ratio.m)
+4. Overfitting Ratio Calculation: calculates the overfitting ratio between a target ROI image and an identified ROI image (bulk_overfitting_ratio.m)
 
 
 ## 3. Dependencies
