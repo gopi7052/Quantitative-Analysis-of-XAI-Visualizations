@@ -46,7 +46,7 @@ Here are the dependencies required for the Explainable AI Toolbox to function co
    - Deep Learning Toolbox
    - Statistics and Machine Learning Toolbox
    - Computer Vision Toolbox
-   - 
+    
 ## 4. Instructions for Training and Evaluating a Deep Learning Model
 ### Step 1: Train and Save the Model
 #### Prepare the Data:
